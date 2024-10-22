@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del menú de navegación */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Banner */
+.banner {
+    background-color: #4CAF50;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 4em;
+}
+
+/* Sección sobre la empresa */
+.about {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+/* Sección de servicios */
+.services, .reviews {
+    padding: 50px;
+}
+
+.services {
+    background-color: #eaeaea;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+/* Sección de reseñas */
+.reviews h2 {
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #ddd;
+}
