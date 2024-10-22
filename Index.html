@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi Emprendimiento</title>
+    <!-- Vincula el archivo CSS externo -->
+    <link rel="stylesheet" href="../util/styles.css">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Nosotros</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#reviews">Reseñas</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+        <h1>Nombre del Emprendimiento</h1>
+        <p>Impulsando tu negocio al éxito</p>
+    </div>
+
+    <!-- Sección sobre la empresa -->
+    <section id="about" class="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa dedicada a [descripción del emprendimiento], con un enfoque en brindar [servicio o producto principal].</p>
+        <img src="https://via.placeholder.com/200" alt="Sobre nosotros">
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="services" class="services">
+        <h2>Servicios</h2>
+        <div class="service-item">
+            <h3>Servicio 1</h3>
+            <p>Descripción del servicio 1</p>
+            <p>Precio: $XXX</p>
+        </div>
+        <div class="service-item">
+            <h3>Servicio 2</h3>
+            <p>Descripción del servicio 2</p>
+            <p>Precio: $XXX</p>
+        </div>
+    </section>
+
+    <!-- Sección de reseñas -->
+    <section id="reviews" class="reviews">
+        <h2>Reseñas de Clientes</h2>
+        <div id="review-list">
+            <!-- Las reseñas se agregarán dinámicamente -->
+        </div>
+        <button onclick="addReview()">Añadir Reseña</button>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Conéctate con nosotros en:</p>
+        <a href="#" target="_blank">Facebook</a>
+        <a href="#" target="_blank">Instagram</a>
+        <a href="#" target="_blank">Twitter</a>
+    </footer>
+
+    <!-- Script para añadir reseñas dinámicamente -->
+    <script>
+        function addReview() {
+            const reviewList = document.getElementById('review-list');
+            const newReview = document.createElement('p');
+            newReview.textContent = '¡Excelente servicio! - Cliente Satisfecho';
+            reviewList.appendChild(newReview);
+        }
+    </script>
+
+</body>
+</html>
